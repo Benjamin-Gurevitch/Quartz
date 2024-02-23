@@ -1,6 +1,6 @@
 ---
 title: test
 tags:
-  - Test
+  - test
 description: testing
 ---
