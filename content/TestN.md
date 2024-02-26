@@ -1,8 +1,7 @@
 ---
 title: test2
 description: testing
-tags:
-  - test
+tags: []
 ---
 
 This is a blank Quartz installation.

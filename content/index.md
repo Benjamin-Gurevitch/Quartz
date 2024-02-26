@@ -1,7 +1,6 @@
 ---
 title: test number 1
-tags:
-  - test
+tags: []
 description: testing
 ---
 Check out [[TestN]]!
