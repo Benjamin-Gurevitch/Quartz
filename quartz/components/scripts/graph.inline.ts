@@ -149,9 +149,9 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
   // calculate color
   const color = (d: NodeData) => {
     if (d.tags.includes("test")) {
-      return "var(--highlight)"; // Use a different color for nodes with the "test" tag
+      return "#000fff"; // Use a different color for nodes with the "test" tag
     } else {
-      return "#0000FF"; // Default color for nodes without the "test" tag
+      return "var(--highlight)"; // Default color for nodes without the "test" tag
     }
   }
 
