@@ -148,13 +148,10 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
 
   // calculate color
   const color = (d: NodeData) => {
-    const isCurrent = d.id === slug
-    if (isCurrent) {
-      return "var(--secondary)"
-    } else if (visited.has(d.id) || d.id.startsWith("tags/")) {
-      return "var(--tertiary)"
+    if (d.tags.includes("test")) {
+      return "var(--highlight)"; // Use a different color for nodes with the "test" tag
     } else {
-      return "var(--gray)"
+      return "#0000FF"; // Default color for nodes without the "test" tag
     }
   }
 

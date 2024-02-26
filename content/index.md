@@ -1,8 +1,6 @@
 ---
-title: test1
+title: Welcome
 tags:
   - test
-description: testing
+description: Introduction page
 ---
-
-Check out [[TestN]]!
