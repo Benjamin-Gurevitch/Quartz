@@ -149,9 +149,19 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
   // calculate color
   const color = (d: NodeData) => {
     if (d.tags.includes("test")) {
-      return "#000fff"; // Use a different color for nodes with the "test" tag
+      return "#000fff"; // Color for nodes with the "test" tag
+    } else if (d.tags.includes("AI")) {
+      return "#ffa1a1"; // Color for nodes with the "example" tag
+    } else if (d.tags.includes("CS")) {
+      return "#ffc38b"; // Color for nodes with the "urgent" tag
+    } else if (d.tags.includes("Philosophy")) {
+      return "#fafba3"; // Color for nodes with the "todo" tag
+    } else if (d.tags.includes("Linguistics")) {
+      return "#cfffa2"; // Color for nodes with the "review" tag
+    } else if (d.tags.includes("e")) {
+      return "#98fff6"; // Color for snodes with the "completed" tag
     } else {
-      return "var(--highlight)"; // Default color for nodes without the "test" tag
+      return "var(--highlight)"; // Default color for other nodes
     }
   }
 
