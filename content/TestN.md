@@ -1,6 +1,6 @@
 ---
+title: test2
 description: testing
-title: Test number 2
 tags:
   - test
 ---
