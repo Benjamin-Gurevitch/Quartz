@@ -1,6 +1,7 @@
 ---
 title: test1
-tags: 
+tags:
+  - test
 description: testing
 ---
 
