@@ -3,6 +3,7 @@ title: TestN
 description: testing
 tags:
   - test
+background-color: blue
 ---
 
 This is a blank Quartz installation.
